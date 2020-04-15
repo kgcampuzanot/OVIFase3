@@ -1,0 +1,17 @@
+*{background: white;
+font-family: 'Franklin Gothic book';
+font-size: 20px;
+font-weight: lighter;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 20px Franklin Gothic book;
+    background: rgb(248, 248, 249);
+    display: inline-block;
+}
