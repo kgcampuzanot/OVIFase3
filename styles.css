@@ -12,6 +12,7 @@ h1{
     list-style: none;
     padding: 5px;
     font: bold 20px Franklin Gothic book;
-    background: rgb(248, 248, 249);
+    background: rgb(0, 70, 105);
     display: inline-block;
+    color: white
 }
