@@ -1,18 +1,97 @@
 *{background: white;
 font-family: 'Franklin Gothic book';
-font-size: 20px;
+font-size: 23px;
 font-weight: lighter;
 }
 
+.contenido{
+    margin: 20px;
+}
 h1{
     font-weight: bold;
 }
-
-.menu li {
-    list-style: none;
-    padding: 5px;
-    font: bold 20px Franklin Gothic book;
+.navegacion{
     background: rgb(0, 70, 105);
+    padding: 0px 30px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: flex-end;
+}
+.navegacion ul{
+    list-style: none;
+    background: rgb(0, 70, 105);
+}
+.menu > li{
+    position: relative;
     display: inline-block;
-    color: white
+}
+
+.menu > li > a{
+    background: rgb(0, 80, 124); 
+    font-weight: lighter;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu  li a:hover{
+    color: white;
+    font-weight: bold;
+    transition: all .3s;
+}
+.submenulec{
+    position: absolute;
+    background: rgb(0, 70, 105);
+    width: 120%;
+    display: none;
+}
+.submenulec li a{
+    display: block;
+    background: rgb(0, 70, 105); 
+    font-weight: lighter;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu li:hover .submenulec{
+    display:block;
+}
+.submenuvid{
+    position: absolute;
+    background: rgb(0, 70, 105);
+    width: 120%;
+    display: none;
+}
+.submenuvid li a{
+    display: block;
+    background: rgb(0, 70, 105); 
+    font-weight: lighter;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu li:hover .submenuvid{
+    display:block;
+}
+.submenuact {
+    position: absolute;
+    background: rgb(0, 70, 105);
+    width: 120%;
+    display: none;
+}
+.submenuact li a {
+    display: block;
+    background: rgb(0, 70, 105); 
+    font-weight: bold;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu li:hover .submenuact{
+    display:block;
+}
+.piedepagina{
+    display: flex;
+    justify-content: center; 
 }
